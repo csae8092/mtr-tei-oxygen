@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info>
+The line xml version="1.0" encoding="UTF-8"? is an XML declaration. It provides important information about the XML document:
+
+version="1.0": This specifies the version of the XML standard that the document adheres to. In this case, it is XML version 1.0.
+
+encoding="UTF-8": This specifies the character encoding used in the document. UTF-8 is a widely used encoding that can represent any character in the Unicode standard.
+
+The XML declaration is optional but recommended as it helps parsers understand how to correctly read and interpret the document.
+</info>

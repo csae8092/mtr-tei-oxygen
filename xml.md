@@ -1,0 +1,94 @@
+# XML
+
+## what is XML?
+
+* XML stands for E**X**tensible **M**arkup **L**anguage
+
+> It defines a set of **rules** for encoding documents in a format that is **both human-readable and machine-readable**.
+
+source: [Wikipedia](https://en.wikipedia.org/wiki/XML)
+
+
+## Rules
+
+### tags ...
+
+* this is an (opening) tag: `<someName>`
+* this is a closing tag: `</someName>`
+* this is a tag: `<someName>some content</someName>`
+* this is an empty tag: `<someName/>`
+
+### ... and attributes
+
+* attributes only live **inside opening tag**
+* this is an attribute with a value: `<someName attribute="value">`
+
+#### names of tags and attributes
+
+* can be named arbitrarily, just avoid any special characters see [Rules for Naming Tags and Attributes](#rules-for-naming-tags-and-attributes)
+
+> [!TIP]
+> Your XML-Editor should know the rules and inform you in case of any violation
+
+### start and end tag
+
+```xml
+<tag>text</tag>
+```
+
+### Respect the hierarchy / no overlapping mark up
+```xml
+<parent>
+    <child></child>
+</parent>
+```
+
+```xml
+<parent>
+    <child></parent>
+</child>
+```
+
+### avoid or encode special characters
+
+#### always
+* < should be written as `&lt;`
+* > should be written as `&gt;`
+* & should be written as `&amp;`
+
+#### in attributes
+* ' should be written as `&apos;`
+* " should be written as `&quot;`
+
+----
+
+## Rules for Naming Tags and Attributes
+1. Start with a letter or underscore: Names must start with a letter (a-z or A-Z) or an underscore (_).
+1.  They cannot start with a number or punctuation character.
+1. Follow with letters, digits, hyphens, underscores, and periods: After the initial character, names can include letters, digits (0-9), hyphens (-), underscores (_), and periods (.).
+1. No spaces: Names cannot contain spaces.
+1. Case-sensitive: XML names are case-sensitive. For example, `<Tag>` and `<tag>` are considered different tags.
+1. Avoid XML reserved words: Names should not match XML reserved words like xml, XML, Xml, etc.
+
+### Characters Not Allowed in Names
+Names cannot start with a number or punctuation character.
+Names cannot contain spaces.
+Names cannot contain the following characters: !, @, #, $, %, ^, &, *, (, ), +, =, {, }, [, ], |, \, :, ;, ", ', <, >, ,, ?, /.
+
+### Examples
+
+#### valid names
+```xml
+<tagName>content</tagName>
+<_tagName>content</_tagName>
+<tag-name>content</tag-name>
+<tag.name>content</tag.name>
+<tag123>content</tag123>
+```
+
+#### invalid names
+```xml
+<123tag>content</123tag> <!-- Starts with a number -->
+<tag name>content</tag name> <!-- Contains a space -->
+<tag!name>content</tag!name> <!-- Contains an exclamation mark -->
+```
