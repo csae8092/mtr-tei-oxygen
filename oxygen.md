@@ -37,16 +37,12 @@ https://www.oxygenxml.com/xml_editor/download_oxygenxml_editor.html
 
 ### Oxygen-Project
 
+### Batch Validation
+
 ### Git-Plugin
 
 ### Transformation Scenarios
 
-```console
-foo@bar:~$ whoami
-foo
-```
+### Author mode
 
-```bash
-foo@bar:~$ whoami
-foo
-```
+### Xpath-Builder
