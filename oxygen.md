@@ -7,7 +7,7 @@ https://www.oxygenxml.com/
 ## What is it?
 
 * well, it is an XML Editor
-* nice TEI integration (framework)
+* nice **TEI integration** (framework)
 * ships with software ([Saxon](https://www.saxonica.com/products/why-saxon.xml) and [Java](https://www.java.com/en/)) to process (transform, query) XML documents
 
 
@@ -25,9 +25,10 @@ https://www.oxygenxml.com/xml_editor/download_oxygenxml_editor.html
 ## Why should I use it?
 
 * People say it is the **de facto standard tool** in context of digital editions; at least here at the ACDH-CH used in many projects.
-* TEI-Support / WYSIWYG View (Author-Mode)
-* especially useful for developing XSL stylesheets for e.g. the conversion from XML to HTML files
-* especially useful for querying/analyzing XML-Documents
+* **TEI-Support**
+* **WYSIWYG View** (Author-Mode)
+* especially useful for **developing** XSL stylesheets for e.g. the conversion from XML to HTML files
+* especially useful for **querying/analyzing** XML-Documents
 
 > [!TIP]
 > If you are mainly interested in encoding XML-Documents you can use free, general Code-Editors like e.g. VS-Code with additional XML Plug-Ins
