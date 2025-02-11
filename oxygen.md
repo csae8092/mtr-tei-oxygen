@@ -32,3 +32,21 @@ https://www.oxygenxml.com/xml_editor/download_oxygenxml_editor.html
 
 > [!TIP]
 > If you are mainly interested in encoding XML-Documents you can use free, general Code-Editors like e.g. VS-Code with additional XML Plug-Ins
+
+## Useful things in Oxygen
+
+### Oxygen-Project
+
+### Git-Plugin
+
+### Transformation Scenarios
+
+```console
+foo@bar:~$ whoami
+foo
+```
+
+```bash
+foo@bar:~$ whoami
+foo
+```
