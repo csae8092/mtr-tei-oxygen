@@ -52,13 +52,13 @@ source: [Wikipedia](https://en.wikipedia.org/wiki/XML)
 ### avoid or encode special characters
 
 #### always
-* < should be written as `&lt;`
-* > should be written as `&gt;`
-* & should be written as `&amp;`
+* `<` should be written as `&lt;`
+* `>` should be written as `&gt;`
+* `&` should be written as `&amp;`
 
 #### in attributes
-* ' should be written as `&apos;`
-* " should be written as `&quot;`
+* `'` should be written as `&apos;`
+* `"` should be written as `&quot;`
 
 ----
 
