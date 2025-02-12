@@ -1,0 +1,80 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>unknown title</title>
+                <author>unknown author</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>unknown date</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>unknown</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application xml:id="docxtotei" ident="TEI_fromDOCX" version="7.58.0">
+                    <label>DOCX to TEI</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2025-02-12T11:45:16Z</date>
+                    <name>unknown author</name>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head><anchor xml:id="1algvgi3giq0" />Das ist eine Überschrift Level 1</head>
+                <p>Nach Turbulenzen wegen der Ressortverteilung wurden in einem geleakten Papier
+                    massive inhaltliche Streitpunkte bekannt. Die Chefs von FPÖ und ÖVP beteuern
+                    jedoch, weiterverhandeln zu wollen</p>
+                <div>
+                    <head><anchor xml:id="xmpr1p8zdgh5" />Das ist eine Überschrift Level 2</head>
+                    <p>Die Verhandlungsteams der beiden Parteien waren noch am Dienstagnachmittag in
+                        der Hofburg zu einem Gespräch mit Bundespräsident Alexander Van der Bellen
+                        geladen. Die Stimmung war zuletzt schlechter denn je: <hi rend="bold">
+                        Wirtschaftskammerpräsident</hi> Harald Mahrer, einer der maßgeblichen
+                        ÖVP-Verhandler, stellte der FPÖ noch vor Gesprächsbeginn die Rute ins
+                        Fenster: "Wer nicht konsensbereit ist, und sich nur im Machtrausch befindet,
+                        der ist möglicherweise nicht regierungsfit", wurde er in der <ref
+                            target="https://www.krone.at/">
+                            <hi rend="italic underline color(1155cc)">Krone</hi>
+                        </ref>
+                        zitiert. Dennoch dementierte Kickl im ORF ein Ende der Gespräche: "Wenn die
+                        Verhandlungen gescheitert wären, dann hätten Sie etwas Entsprechendes
+                        gehört." Auch ÖVP-Chef Christian Stocker sagte vor seinem Termin mit dem
+                        Präsidenten, dass es noch Gespräche mit der FPÖ gebe, nach dem Termin beim
+                        Präsidenten gab er kein Statement ab. Van der Bellen hat angekündigt, sich
+                        eventuell am Mittwoch zu äußern.</p>
+                    <p>
+                        <hi style="font-size:16pt">Das ist keine Überschrift Level 1</hi>
+                    </p>
+                    <p>Der Bewegungsmangel schreitet voran. Ex-Skirennläufer Felix Neureuther und
+                        Martha Schultz als Vizepräsidentin der Wirtschaftskammer begaben sich auf
+                        Lösungssuche</p>
+                    <p>
+                        <hi rend="bold" style="font-size:13pt">Das ist keine Überschrift Level 2</hi>
+                    </p>
+                    <p>Felix Neureuthers Vorbild war Alberto Tomba. “Ich wollte so sein wie er, ich
+                        habe Tomba-Unterwäsche getragen", erzählt der 40-jährige Deutsche, der 2019
+                        seine Rennlatten nach 13 Weltcupsiegen im Keller verstaut hatte. Tomba la
+                        Bomba kopieren? Aussichtslos! Ihm nacheifern? Möglich. Mit 50 Weltcupsiegen
+                        und fünf Goldenen bei Olympischen Spielen und Weltmeisterschaften mithalten?
+                        Schwierig!</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
