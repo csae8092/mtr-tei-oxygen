@@ -24,7 +24,7 @@ https://www.oxygenxml.com/xml_editor/download_oxygenxml_editor.html
 
 ## Why should I use it?
 
-* People say it is the **de facto standard tool** in context of digital editions; at least here at the ACDH-CH used in many projects.
+* People say it is the **de facto standard tool** in the context of digital editions; at least here at the ACDH-CH used in many projects.
 * **TEI-Support**
 * **WYSIWYG View** (Author-Mode)
 * especially useful for **developing** XSL stylesheets for e.g. the conversion from XML to HTML files
@@ -36,13 +36,22 @@ https://www.oxygenxml.com/xml_editor/download_oxygenxml_editor.html
 ## Useful things in Oxygen
 
 ### Oxygen-Project
-
-### Batch Validation
-
-### Git-Plugin
+* having a file browser in Oxygen
+* configure transformation/validation scenarios
 
 ### Transformation Scenarios
+* Oxygen ships with stylesheets to convert TEI/XML Documents into e.g. Word, HTML, PDF
+* You can create your own stylesheets and transformation scenarios
+
+### Batch Validation
+* Check files in batches if they are well-formed and valid
+
+### Git-Plugin
+* interact with GIT directly from Oxygen
+  * check diffs, commit, pull, ...
 
 ### Author mode
+* customizable WYSIWYG Editor
 
 ### Xpath-Builder
+* Query one or many files using Xpath

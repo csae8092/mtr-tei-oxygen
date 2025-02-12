@@ -2,7 +2,7 @@
 
 
 > [!IMPORTANT]  
-> Distinguish between the markup/semantics and its visualisation/formatting, see [this document](https://docs.google.com/document/d/1Z5nQrBSitxWp0LfQCmn5OYDbb0PVbjXV1RPwpgpGfRM/edit?usp=sharing) and e.g. download it as markup.md or as word-doc and open it in Oxygen-XML Editor
+> Distinguish between the markup/semantics and its visualisation/formatting, see [this document](https://docs.google.com/document/d/1Z5nQrBSitxWp0LfQCmn5OYDbb0PVbjXV1RPwpgpGfRM/edit?usp=sharing) and e.g. download it as markup.md or as word-doc and open it in Oxygen-XML Editor. Or download it as Word-Document and convert it using https://teigarage.tei-c.org/# into a TEI/XML document
 
 ## what is markup
 
