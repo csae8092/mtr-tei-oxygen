@@ -1,10 +1,10 @@
 # Text Encoding Initiative - TEI
 
 The TEI combines several aspects:
-1. it is a **community** (or consortium)
-1. this community develops a set of **human readable rules** how to encode text, the **Guidelines**
-1. these guidelines are materialized in form of a **schema to validate TEI/XML documents**
-1. **tools and services** helping to create, validate and transform TEI/XML documents
+1. it is a **community** (or consortium) [go to](#consortium)
+1. this community develops a set of **human readable rules** how to encode text, the **Guidelines** [go to](#guidelines)
+1. these guidelines are materialized in form of a **schema to validate TEI/XML documents** [go to](#tei-schema)
+1. **tools and services** helping to create, validate and transform TEI/XML documents [go to](#tools-and-services)
 
 
 ## consortium
@@ -94,5 +94,18 @@ https://kaiserin-eleonora.oeaw.ac.at/kasten_blau_45_9_0278.html -> [download TEI
 ```
 
 * Now any **violations** should be picked up by your editor and marked, in Oxygen with a **red underline**
-* Schema aware code editors should provide you with **code completion / autocompletes**, suggesting allowed tags/attributes
-* Schema aware code editors should **explain the tags**
+* Schema-aware code editors should provide you with **code completion / autocompletes**, suggesting allowed tags/attributes
+* Schema-aware code editors should **explain the tags**
+
+## Tools and Services
+### [ROMA](https://roma.tei-c.org/)
+> Roma is an ODD Editor, using the TEI ODD (One Document Does-it-all) format for meta-schema documentation and local encoding guidelines as created by the Text Encoding Initiative.
+
+### [TEIGarage](https://teigarage.tei-c.org/)
+> TEIGarage is a web service and RESTful service to transform, convert and validate various formats, focusing on the TEI format. TEIGarage is based on the proven OxGarage.
+
+### [TEI XSLT Stylesheets](https://github.com/TEIC/Stylesheets)
+> This is a family of XSLT 3.0 stylesheets to transform TEI XML documents to various formats, including XHTML, LaTeX, XSL Formatting Objects, ePub, plain text, RDF, JSON; and to/from Word OOXML (docx) and OpenOffice (odt). 
+
+* (partly) included in Oxygen
+* used by TEIGarage
