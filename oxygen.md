@@ -37,14 +37,19 @@ https://www.oxygenxml.com/xml_editor/download_oxygenxml_editor.html
 
 ### Oxygen-Project
 * having a file browser in Oxygen
-* configure transformation/validation scenarios
+
+demonstrate with [this repo](https://github.com/acdh-oeaw/mtr-tei-oxygen)
 
 ### Transformation Scenarios
 * Oxygen ships with stylesheets to convert TEI/XML Documents into e.g. Word, HTML, PDF
 * You can create your own stylesheets and transformation scenarios
 
+demonstrate with [`wkfm-static`](https://github.com/donauhandel/wkfm-static)
+
 ### Batch Validation
 * Check files in batches if they are well-formed and valid
+
+demonstrate with [`tillich-briefe-data`](https://github.com/TillichCorrespondence/tillich-briefe-data)
 
 ### Git-Plugin
 * interact with GIT directly from Oxygen
@@ -53,5 +58,14 @@ https://www.oxygenxml.com/xml_editor/download_oxygenxml_editor.html
 ### Author mode
 * customizable WYSIWYG Editor
 
+demonstrate with [`tillich-briefe-data`](https://github.com/TillichCorrespondence/tillich-briefe-data)
+
 ### Xpath-Builder
 * Query one or many files using Xpath
+
+demonstrate with [`tillich-briefe-data`](https://github.com/TillichCorrespondence/tillich-briefe-data)
+
+"find all letters written by Gustav Dürselen"
+```xpath
+//correspAction[@type="sent"]/persName[@ref="#tillich_person_id__2237"]
+```
