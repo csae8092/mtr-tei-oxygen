@@ -25,7 +25,7 @@ You want to mark up some textual phenomenon; let's say you have an abbreviation 
 * express that this is an abbreviation
 * tell what this abbreviation stands for
 
-### Google it
+#### Google it
 * https://www.google.com/search?q=tei+abbreviation
 * should lead you to a the [TEI-guidelines page of some tag/element](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-abbr.html)
 * Read the description! Does it fit your needs?
@@ -53,4 +53,42 @@ two solutions provided:
   <abbr>e.g.</abbr>
   <expan>exempli gratia</expan>
 </choice>
+```
+
+#### Follow examples you like
+
+https://kaiserin-eleonora.oeaw.ac.at/kasten_blau_45_9_0278.html -> [download TEI/XML](https://kaiserin-eleonora.oeaw.ac.at/kasten_blau_45_9_0278.xml)
+
+## TEI-Schema
+
+* can be donwloaded [here somewhere](https://www.tei-c.org/guidelines/customization/)
+TEI-ALL as XML Schema Definition: https://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd
+
+* or in Oxygen, File -> New (ctrl+n) -> All [TEI] -> creates following Document
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Some text here.</p>
+      </body>
+  </text>
+</TEI>
 ```
