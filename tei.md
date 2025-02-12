@@ -25,13 +25,16 @@ You want to mark up some textual phenomenon; let's say you have an abbreviation 
 * express that this is an abbreviation
 * tell what this abbreviation stands for
 
-> [!TIP]
-> Google it! https://www.google.com/search?q=tei+abbreviation
+### Google it
+* https://www.google.com/search?q=tei+abbreviation
+* should lead you to a the [TEI-guidelines page of some tag/element](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-abbr.html)
+* Read the description! Does it fit your needs?
+* Look at the example!
 
 > [!TIP]
 > Ask some LLM
 
-#### ChatGPT
+#### ChatGPT-Example
 
 You are encoding a text using TEI. You want to mark up some textual phenomenon; let's say you have an abbreviation like `e.g.` in your text and you want to:
 * express that this is an abbreviation
@@ -40,7 +43,7 @@ You are encoding a text using TEI. You want to mark up some textual phenomenon; 
 two solutions provided:
 
 > [!WARNING]
-> This is not valid TEI
+> The first example does not validate against the TEI-Schema, therefore it is wrong!
 ```xml
 <abbr expan="exempli gratia">e.g.</abbr>
 ```
