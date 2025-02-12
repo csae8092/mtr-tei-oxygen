@@ -12,7 +12,7 @@ The TEI combines several aspects:
 * [Mailing-List](https://tei-c.org/support/)
 * [Meetings](https://members.tei-c.org/Events/meetings)
 * [GitHub-Organisation](https://github.com/TEIC)
-  * e.g. [Issues](https://github.com/TEIC/TEI/issues/1861)
+  * e.g. [Issues](https://github.com/TEIC/TEI/issues/2382)
 
 ## Guidelines
 
