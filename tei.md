@@ -27,7 +27,7 @@ You want to mark up some textual phenomenon; let's say you have an abbreviation 
 
 #### Google it
 * https://www.google.com/search?q=tei+abbreviation
-* should lead you to a the [TEI-guidelines page of some tag/element](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-abbr.html)
+* should lead you to the [TEI-guidelines page of some tag/element](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-abbr.html)
 * Read the description! Does it fit your needs?
 * Look at the example!
 
@@ -61,16 +61,16 @@ https://kaiserin-eleonora.oeaw.ac.at/kasten_blau_45_9_0278.html -> [download TEI
 
 ## TEI-Schema
 
-* can be donwloaded [here somewhere](https://www.tei-c.org/guidelines/customization/)
-TEI-ALL as XML Schema Definition: https://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd
-
+* can be downloaded [here somewhere](https://www.tei-c.org/guidelines/customization/)
+* TEI-ALL as XML Schema Definition: https://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd
+* needs to be linked to your TEI/XML Document
 * or in Oxygen, File -> New (ctrl+n) -> All [TEI] -> creates following Document
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
@@ -92,3 +92,7 @@ TEI-ALL as XML Schema Definition: https://www.tei-c.org/release/xml/tei/custom/s
   </text>
 </TEI>
 ```
+
+* Now any **violations** should be picked up by your editor and marked, in Oxygen with a **red underline**
+* Schema aware code editors should provide you with **code completion / autocompletes**, suggesting allowed tags/attributes
+* Schema aware code editors should **explain the tags**
